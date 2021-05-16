@@ -1,0 +1,333 @@
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 150vh;
+    background-image: url("images/coin.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.heading {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: black;
+    color: lawngreen;
+}
+
+.announce {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+    justify-content: center;
+
+}
+    ul {
+    display: table;
+    margin: 0 auto;
+    text-align: match-parent;
+    }   
+
+    ul li {
+        width: 25%, text-align: center;
+        border: 2px solid red;
+        display: inline-block;
+    }
+
+      
+
+.image1 {
+    position: absolute;
+    top: 490px;
+    right: 0;
+    width: 400px;
+    height: 380px;
+    border: solid 5px black;
+}
+
+.image2 {
+    position: absolute;
+    top: 490px;
+    bottom: 0px;
+    right: 300px;
+    width: 400px;
+    height: 380px;
+    border: solid 5px black;
+}
+
+.image3 {
+    position: absolute;
+    top: 490px;
+    bottom: 0px;
+    right: 700px;
+    width: 400px;
+    height: 380px;
+    border: solid 5px black;
+}
+
+    
+p {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: #9feb12;
+    background-color: palegoldenrod;
+    color: saddlebrown;
+}
+    
+    .navigation {
+        position: fixed;
+        width: 70px;
+        height: 296px;
+        top: 8rem;
+        left: 0;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 15px 25px rgb(0 0 0 / 10%);
+    }
+    
+    .navigation ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .navigation ul li {
+        position: relative;
+        list-style: none;
+        border-radius: 10px;
+        width: 70px;
+        height: 60px;
+        border: 4px solid #fff;
+        box-sizing: border-box;
+    }
+    
+    .navigation ul li:hover {
+        background: #0077ff;
+    }
+    
+    .navigation ul li a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+        color: #0077ff;
+        font-weight: 500;
+    }
+    
+    .navigation ul li a .icon {
+        position: relative;
+        display: block;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    .navigation ul li:hover a .icon {
+        color: #fff;
+    }
+    
+    .navigation ul li a .icon .fa {
+        font-size: 24px;
+    }
+    
+    .navigation ul li a .title {
+        position: absolute;
+        left: 70px;
+        display: block;
+        background: #fff;
+        width: auto;
+        padding: 5px 10px;
+        transform: translateY(-15%) translateX(0px);
+        border-radius: 6px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        visibility: hidden;
+        opacity: o;
+        transition: 0.3s;
+    }
+    
+    .navigation ul li:hover a .title {
+        transform: translateY(-15%) translateX(10px);
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .navigation ul li a .title::before {
+        content: '';
+        position: absolute;
+        top: 48%;
+        left: -8px;
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        transform: rotate(45deg) translateY(-50%);
+        border-radius: 2px;
+    }
+
+   .payment {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+    color: #ff0157;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .button {
+    background-color: lightblue;
+    color: black;
+    font-size: 25px;
+   }  
+    
+    button .light {
+        position: absolute;
+        top: 4.5rem; 
+        left: 3rem;
+        font-weight: 700;
+        color: #111;
+    }
+    
+    button .neon {
+        position: absolute;
+        top: 4.5rem;
+        right: 3rem;
+        font-weight: 700;
+        color: #111;
+    }
+    
+    button a {
+        position: relative;
+        display: inline-block;
+        /* padding: 15px 30px; */
+        color: #4121f3;
+        background: yellow;
+        text-transform: uppercase;
+        /* letter-spacing: 4px; */
+        text-decoration: none;
+        font-size: 1.1rem;
+        overflow: hidden;
+        transition: .2s;
+    }
+    
+    button a:hover {
+        color: #020202;
+        background: #f32f21;
+        box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+    }
+
+.footer {
+    float: left;
+    position: fixed;
+    font-family: 'Black Ops One', cursive;
+    font-size: 15px;
+    width: 100%;
+    height: 130px;
+    background: #111;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
+    align-items: baseline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footerCentered {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+    .footerCentered p {
+        align-items: baseline;
+        font-family: Raleway;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .footerCentered a {
+        color: #444444;
+    }
+
+.SocialIcons {
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.instagram, .facebook, .linkedin, .twitter {
+    width: 32px;
+    height: 32px;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+    .instagram:hover, .facebook:hover, .linkedin:hover, .twitter:hover {
+        transform: scale(2.2);
+    }
+
+.instagram {
+    background: url(images/Social/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.facebook {
+    background: url(images/Social/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.linkedin {
+    background: url(images/Social/linkedin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.twitter {
+    background: url(images/Social/twitter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+    /* Set a specific color for each brand */
+
+
